@@ -18,7 +18,7 @@ neurona.idNeurona = idNeurona;
 neurona.sesgo = Math.floor(Math.random() * (max - min + 1) + min);
 neurona.pesos = crearPesos(cantPesos,min,max)
 
-
+return neurona
 }
 
 
